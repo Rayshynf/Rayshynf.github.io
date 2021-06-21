@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog of Rayshynf</title>
+  <icon>https://rayshynf.github.io/icon.png</icon>
+  
+  <link href="https://rayshynf.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://rayshynf.github.io/"/>
+  <updated>2021-06-21T14:30:43.293Z</updated>
+  <id>https://rayshynf.github.io/</id>
+  
+  <author>
+    <name>Rayshynf</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Manjaro配置</title>
+    <link href="https://rayshynf.github.io/2021/06/21/Manjaro%E9%85%8D%E7%BD%AE/"/>
+    <id>https://rayshynf.github.io/2021/06/21/Manjaro%E9%85%8D%E7%BD%AE/</id>
+    <published>2021-06-21T01:16:19.000Z</published>
+    <updated>2021-06-21T14:30:43.293Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;初步配置&quot;&gt;&lt;a href=&quot;#初步配置&quot; class=&quot;headerlink&quot; title=&quot;初步配置&quot;&gt;&lt;/a&gt;初步配置&lt;/h2&gt;&lt;h3 id=&quot;换源&quot;&gt;&lt;a href=&quot;#换源&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="系统安装" scheme="https://rayshynf.github.io/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/"/>
+    
+    
+    <category term="Linux" scheme="https://rayshynf.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://rayshynf.github.io/2021/06/20/hello-world/"/>
+    <id>https://rayshynf.github.io/2021/06/20/hello-world/</id>
+    <published>2021-06-20T14:15:53.149Z</published>
+    <updated>2021-06-21T14:06:52.450Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
