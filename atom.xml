@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Blog of Rayshynf</title>
   <icon>https://rayshynf.github.io/icon.png</icon>
-  
+  <subtitle>遇事不决，可问春风</subtitle>
   <link href="https://rayshynf.github.io/atom.xml" rel="self"/>
   
   <link href="https://rayshynf.github.io/"/>
-  <updated>2021-06-21T14:30:43.293Z</updated>
+  <updated>2021-06-23T16:31:54.827Z</updated>
   <id>https://rayshynf.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo next(v7.8.0)主题配置</title>
+    <link href="https://rayshynf.github.io/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    <id>https://rayshynf.github.io/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</id>
+    <published>2021-06-23T15:54:30.000Z</published>
+    <updated>2021-06-23T16:31:54.827Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;写在前面：本博客配置基于hexo-5.4.0和next-7.8.0配置。其中，基于next-7.8.0的部分配置内容与next-5多有不同。hexo博客的搭建和next主题的获取步骤在这里就先行省略。此外，我的next主题文件夹命名为next-reloaded，以便和v5版本的next主题做出区分。&lt;/em&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://rayshynf.github.io/tags/Hexo/"/>
+    
+    <category term="next" scheme="https://rayshynf.github.io/tags/next/"/>
+    
+  </entry>
   
   <entry>
     <title>Manjaro配置</title>
