@@ -6,7 +6,7 @@
   <link href="https://rayshynf.github.io/atom.xml" rel="self"/>
   
   <link href="https://rayshynf.github.io/"/>
-  <updated>2021-06-23T16:35:47.956Z</updated>
+  <updated>2021-06-23T18:00:55.032Z</updated>
   <id>https://rayshynf.github.io/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://rayshynf.github.io/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
     <id>https://rayshynf.github.io/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</id>
     <published>2021-06-23T15:54:30.000Z</published>
-    <updated>2021-06-23T16:35:47.956Z</updated>
+    <updated>2021-06-23T18:00:55.032Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;em&gt;写在前面：本博客配置基于hexo-5.4.0和next-7.8.0配置。其中，基于next-7.8.0的部分配置内容与next-5多有不同。hexo博客的搭建和next主题的获取步骤在这里就先行省略。此外，我的next主题文件夹命名为next-reloaded，以便和v5版本的next主题做出区分。&lt;/em&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;写在前面：本博客配置基于hexo-5.4.0和next-7.8.0配置。其中，基于next-7.8.0的部分配置内容与next-5多有不同。hexo博客的搭建和next主题的获取步骤在这里我们就现行省略。你可以参照这两个视频&lt;a href=&quot;https://www.bilibili.com/video/BV1Yb411a7ty?t=595&quot;&gt;手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo_哔哩哔哩_bilibili&lt;/a&gt;、&lt;a href=&quot;https://www.bilibili.com/video/BV1cW411A7Jx?p=9&quot;&gt;手把手教你搭建属于自己的hexo+github博客_哔哩哔哩_bilibili&lt;/a&gt;来完成hexo博客的搭建。此外，我的next主题文件夹命名为next-reloaded，以便和v5版本的next主题做出区分。&lt;/p&gt;</summary>
     
     
     
@@ -40,7 +40,7 @@
     <link href="https://rayshynf.github.io/2021/06/21/Manjaro%E9%85%8D%E7%BD%AE/"/>
     <id>https://rayshynf.github.io/2021/06/21/Manjaro%E9%85%8D%E7%BD%AE/</id>
     <published>2021-06-21T01:16:19.000Z</published>
-    <updated>2021-06-21T14:30:43.293Z</updated>
+    <updated>2021-06-23T17:46:24.016Z</updated>
     
     
       
