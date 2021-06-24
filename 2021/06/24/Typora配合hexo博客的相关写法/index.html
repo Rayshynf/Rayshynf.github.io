@@ -20,21 +20,21 @@
     var CONFIG = {"hostname":"rayshynf.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":"ture","style":"flat"},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta name="description" content="写在前面：本博客配置基于hexo-5.4.0和next-7.8.0配置。其中，基于next-7.8.0的部分配置内容与next-5多有不同。hexo博客的搭建和next主题的获取步骤在这里我们就现行省略。你可以参照这两个视频*手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo_哔哩哔哩_bilibili、​​手把手教你搭建属于自己的hexo+github博客_哔哩哔哩_bilibi">
+  <meta name="description" content="设置阅读全文的方法使用下列代码进行手动截断，设置阅读全文前的摘要内容 1&lt;!-- more --&gt;  设置文字高亮的方法1&lt;label style&#x3D;&quot;color:blue&quot;&gt;需要高亮的文字&lt;&#x2F;label&gt;    未完待续">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo next(v7.8.0)主题配置">
-<meta property="og:url" content="https://rayshynf.github.io/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/index.html">
+<meta property="og:title" content="Typora配合hexo博客的相关写法">
+<meta property="og:url" content="https://rayshynf.github.io/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/index.html">
 <meta property="og:site_name" content="Blog of Rayshynf">
-<meta property="og:description" content="写在前面：本博客配置基于hexo-5.4.0和next-7.8.0配置。其中，基于next-7.8.0的部分配置内容与next-5多有不同。hexo博客的搭建和next主题的获取步骤在这里我们就现行省略。你可以参照这两个视频*手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo_哔哩哔哩_bilibili、​​手把手教你搭建属于自己的hexo+github博客_哔哩哔哩_bilibi">
+<meta property="og:description" content="设置阅读全文的方法使用下列代码进行手动截断，设置阅读全文前的摘要内容 1&lt;!-- more --&gt;  设置文字高亮的方法1&lt;label style&#x3D;&quot;color:blue&quot;&gt;需要高亮的文字&lt;&#x2F;label&gt;    未完待续">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-06-23T15:54:30.000Z">
-<meta property="article:modified_time" content="2021-06-24T02:21:28.983Z">
+<meta property="article:published_time" content="2021-06-24T01:11:29.000Z">
+<meta property="article:modified_time" content="2021-06-24T02:07:22.307Z">
 <meta property="article:author" content="Rayshynf">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="next">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://rayshynf.github.io/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">
+<link rel="canonical" href="https://rayshynf.github.io/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/">
 
 
 <script id="page-configurations">
@@ -47,7 +47,7 @@
   };
 </script>
 
-  <title>Hexo next(v7.8.0)主题配置 | Blog of Rayshynf</title>
+  <title>Typora配合hexo博客的相关写法 | Blog of Rayshynf</title>
   
 
 
@@ -207,7 +207,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://rayshynf.github.io/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">
+    <link itemprop="mainEntityOfPage" href="https://rayshynf.github.io/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -220,7 +220,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hexo next(v7.8.0)主题配置
+          Typora配合hexo博客的相关写法
         </h1>
 
         <div class="post-meta">
@@ -229,16 +229,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2021-06-23 23:54:30" itemprop="dateCreated datePublished" datetime="2021-06-23T23:54:30+08:00">2021-06-23</time>
+              <time title="创建时间：2021-06-24 09:11:29 / 修改时间：10:07:22" itemprop="dateCreated datePublished" datetime="2021-06-24T09:11:29+08:00">2021-06-24</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-06-24 10:21:28" itemprop="dateModified" datetime="2021-06-24T10:21:28+08:00">2021-06-24</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -250,7 +244,7 @@
             </span>
 
           
-            <span id="/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/" class="post-meta-item leancloud_visitors" data-flag-title="Hexo next(v7.8.0)主题配置" title="阅读次数">
+            <span id="/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/" class="post-meta-item leancloud_visitors" data-flag-title="Typora配合hexo博客的相关写法" title="阅读次数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -272,8 +266,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/" itemprop="commentCount"></span>
+    <a title="valine" href="/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -283,14 +277,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>2.1k</span>
+              <span>128</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -302,47 +296,13 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>写在前面：本博客配置基于hexo-5.4.0和next-7.8.0配置。其中，基于next-7.8.0的部分配置内容与next-5多有不同。hexo博客的搭建和next主题的获取步骤在这里我们就现行省略。你可以参照这两个视频*<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1Yb411a7ty?t=595">手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo_哔哩哔哩_bilibili</a><em>、​​</em><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客_哔哩哔哩_bilibili</a>*来完成hexo博客的搭建。此外，我的next主题文件夹命名为next-reloaded，以便和v5版本的next主题做出区分。</p>
-<span id="more"></span>
+        <h2 id="设置阅读全文的方法"><a href="#设置阅读全文的方法" class="headerlink" title="设置阅读全文的方法"></a>设置阅读全文的方法</h2><p>使用下列代码进行手动截断，设置阅读全文前的摘要内容</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>
 
-<h1 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h1><h2 id="应用next主题"><a href="#应用next主题" class="headerlink" title="应用next主题"></a>应用next主题</h2><p>在站点配置文件 <label style="color:red"><em>hexo_blog\themes\ _config.yml</em> </label>中找到theme。</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next-reloaded <span class="comment"># 配置成刚下载的next主题</span></span><br></pre></td></tr></table></figure>
+<h2 id="设置文字高亮的方法"><a href="#设置文字高亮的方法" class="headerlink" title="设置文字高亮的方法"></a>设置文字高亮的方法</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;label style=&quot;color:blue&quot;&gt;需要高亮的文字&lt;/label&gt;</span><br></pre></td></tr></table></figure>
 
-<h2 id="菜单配置"><a href="#菜单配置" class="headerlink" title="菜单配置"></a>菜单配置</h2><h3 id="新增菜单"><a href="#新增菜单" class="headerlink" title="新增菜单"></a>新增菜单</h3><p>在<label style="color:red"><em>hexo_blog\themes\next-reloaded_config.yml</em></label>中找到menu。默认的菜单仅有home和 archives，去掉about、tags、categories和archives前的#号。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 菜单设置为 菜单名: /菜单目录 || 菜单图标名字</span></span><br><span class="line">menu:</span><br><span class="line">  home: / || fa fa-home                    <span class="comment">#首页</span></span><br><span class="line">  about: /about/ || fa fa-user             <span class="comment">#关于</span></span><br><span class="line">  tags: /tags/ || fa fa-tags               <span class="comment">#标签</span></span><br><span class="line">  categories: /categories/ || fa fa-th     <span class="comment">#分类</span></span><br><span class="line">  archives: /archives/ || fa fa-archive    <span class="comment">#归档</span></span><br><span class="line">  <span class="comment">#search: /search                         #搜索</span></span><br><span class="line">  <span class="comment">#schedule: /schedule/ || fa fa-calendar  #日历</span></span><br><span class="line">  <span class="comment">#sitemap: /sitemap.xml || fa fa-sitemap  #站点地图，供搜索引擎爬取</span></span><br><span class="line">  <span class="comment">#commonweal: /404/ || fa fa-heartbeat    # 腾讯公益404</span></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Enable / Disable menu icons / item badges.</span></span><br><span class="line">menu_settings:</span><br><span class="line">  icons: true      <span class="comment">#设置菜单的图标是否显示</span></span><br><span class="line">  badges: true     <span class="comment">#设置标签、分类、归档是否显示数量</span></span><br></pre></td></tr></table></figure>
 
-<p><em>说明</em> ：搜索功能先不要启用，下面会写一个建立本地搜索的方法。</p>
-<h3 id="手动配置菜单"><a href="#手动配置菜单" class="headerlink" title="手动配置菜单"></a>手动配置菜单</h3><p>上一步中去掉#号后还需要，需要手动配置才能生效。在博客对应目录下分别运行以下命令。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page commonweal</span><br></pre></td></tr></table></figure>
-
-<p>它们会在你的<label style="color:red"><em>hexo_blog\source</em></label>文件夹下分别新建about、tags、categories和commonweal文件夹，每个文件夹下会生成一个index.md文件，你可以根据自己的需求进行配置。当然，我是默认的并未改动。</p>
-<h2 id="配置本地搜索功能"><a href="#配置本地搜索功能" class="headerlink" title="配置本地搜索功能"></a>配置本地搜索功能</h2><h3 id="安装插件，用于生成博客索引数据"><a href="#安装插件，用于生成博客索引数据" class="headerlink" title="安装插件，用于生成博客索引数据"></a>安装插件，用于生成博客索引数据</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 在博客根目录下执行下列命令　</span></span><br><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
-
-<p>安装之后，会在站点目录的 public 文件夹下创建一个 search.xml 文件。</p>
-<h3 id="改站点配置文件"><a href="#改站点配置文件" class="headerlink" title="改站点配置文件"></a>改站点配置文件</h3><p>在站点配置文件<label style="color:red"><em>hexo_blog_config.yml</em></label>中添加如下内容：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Search </span></span><br><span class="line">search:</span><br><span class="line">  path: ./public/search.xml　  <span class="comment">#　索引文件的路径，相对于站点根目录</span></span><br><span class="line">  field: post　　　　　　　　　  <span class="comment">#　搜索范围，默认是 post，还可以选择 page、all，设置成 all 表示搜索所有页面</span></span><br><span class="line">  <span class="built_in">format</span>: html</span><br><span class="line">  limit: <span class="number">10000</span>　　　　　　　　  <span class="comment">#　限制搜索的条目数</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="主题配置文件"><a href="#主题配置文件" class="headerlink" title="主题配置文件"></a>主题配置文件</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true          <span class="comment">#确保enable设成true。</span></span><br><span class="line">  trigger: auto           </span><br><span class="line">  top_n_per_article: <span class="number">1</span>　<span class="comment"># 表示在每篇文章中显示的搜索结果数量，设成 -1 会显示每篇文章的所有搜索结果数量</span></span><br></pre></td></tr></table></figure>
-
-<p>重新部署网站即可使用本地搜索功能。</p>
-<h2 id="侧边栏设置"><a href="#侧边栏设置" class="headerlink" title="侧边栏设置"></a>侧边栏设置</h2><h3 id="网站标题、描述、个人信息设置"><a href="#网站标题、描述、个人信息设置" class="headerlink" title="网站标题、描述、个人信息设置"></a>网站标题、描述、个人信息设置</h3><p>在站点配置文件<label style="color:red"> <em>hexo_blog\themes\ _config.yml</em></label> 中找到Site。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Site</span></span><br><span class="line">title: Blog of Rayshynf    # 网站标题</span><br><span class="line">subtitle: 遇事不决，可问春风  # 网站副标题</span><br><span class="line">description:               # 网站描述</span><br><span class="line">keywords:                  # 网站的关键字</span><br><span class="line">author: Rayshynf           # 博主姓名</span><br><span class="line">language: zh-CN            # 语言</span><br><span class="line">timezone:                  # 时区</span><br></pre></td></tr></table></figure>
-
-<p><em>说明</em> ：language的配置可以在<label style="color:red"><em>hexo_blog\themes\next-reloaded\languages</em></label>中查看，似乎有些next版本的中文语言是<label style="color:red"><em>zh-Hans</em></label>。时区没有设置，似乎并没有什么影响。</p>
-<h3 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h3><p>在站点配置文件<label style="color:red"><em>hexo_blog\themes\ _config.yml</em> </label>中找到avatar。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Sidebar Avatar</span></span><br><span class="line">avatar:</span><br><span class="line">  url: /images/avatar.jpg <span class="comment"># 设置头像资源的位置</span></span><br><span class="line">  rounded: true           <span class="comment"># 开启圆形头像</span></span><br><span class="line">  rotated: false          <span class="comment"># 不开启旋转</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="RSS-订阅"><a href="#RSS-订阅" class="headerlink" title="RSS 订阅"></a>RSS 订阅</h3><h3 id="社交信息"><a href="#社交信息" class="headerlink" title="社交信息"></a>社交信息</h3><h1 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h1><ol>
-<li><label style="color:blue"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.csdn.net/lijing742180/article/details/87970909">Hexo Next 主题中添加本地搜索功能_媛测-CSDN博客</a></label></li>
-</ol>
 <p><label style="color:blue"><em>未完待续</em></label></p>
 
     </div>
@@ -379,7 +339,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://rayshynf.github.io/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/" title="Hexo next(v7.8.0)主题配置">https://rayshynf.github.io/2021/06/23/Hexo-next主题配置/</a>
+    <a href="https://rayshynf.github.io/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/" title="Typora配合hexo博客的相关写法">https://rayshynf.github.io/2021/06/24/Typora配合hexo博客的相关写法/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener external nofollow noreferrer" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -400,13 +360,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/06/21/Manjaro%E9%85%8D%E7%BD%AE/" rel="prev" title="Manjaro配置">
-      <i class="fa fa-chevron-left"></i> Manjaro配置
+    <a href="/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/" rel="prev" title="Hexo next(v7.8.0)主题配置">
+      <i class="fa fa-chevron-left"></i> Hexo next(v7.8.0)主题配置
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/" rel="next" title="Typora配合hexo博客的相关写法">
-      Typora配合hexo博客的相关写法 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -466,7 +423,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE"><span class="nav-number">1.</span> <span class="nav-text">主题配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BA%94%E7%94%A8next%E4%B8%BB%E9%A2%98"><span class="nav-number">1.1.</span> <span class="nav-text">应用next主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%8F%9C%E5%8D%95%E9%85%8D%E7%BD%AE"><span class="nav-number">1.2.</span> <span class="nav-text">菜单配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%B0%E5%A2%9E%E8%8F%9C%E5%8D%95"><span class="nav-number">1.2.1.</span> <span class="nav-text">新增菜单</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE%E8%8F%9C%E5%8D%95"><span class="nav-number">1.2.2.</span> <span class="nav-text">手动配置菜单</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E6%9C%AC%E5%9C%B0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD"><span class="nav-number">1.3.</span> <span class="nav-text">配置本地搜索功能</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%EF%BC%8C%E7%94%A8%E4%BA%8E%E7%94%9F%E6%88%90%E5%8D%9A%E5%AE%A2%E7%B4%A2%E5%BC%95%E6%95%B0%E6%8D%AE"><span class="nav-number">1.3.1.</span> <span class="nav-text">安装插件，用于生成博客索引数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%94%B9%E7%AB%99%E7%82%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">1.3.2.</span> <span class="nav-text">改站点配置文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="nav-number">1.3.3.</span> <span class="nav-text">主题配置文件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BE%A7%E8%BE%B9%E6%A0%8F%E8%AE%BE%E7%BD%AE"><span class="nav-number">1.4.</span> <span class="nav-text">侧边栏设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BD%91%E7%AB%99%E6%A0%87%E9%A2%98%E3%80%81%E6%8F%8F%E8%BF%B0%E3%80%81%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E8%AE%BE%E7%BD%AE"><span class="nav-number">1.4.1.</span> <span class="nav-text">网站标题、描述、个人信息设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%B4%E5%83%8F%E8%AE%BE%E7%BD%AE"><span class="nav-number">1.4.2.</span> <span class="nav-text">头像设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#RSS-%E8%AE%A2%E9%98%85"><span class="nav-number">1.4.3.</span> <span class="nav-text">RSS 订阅</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A4%BE%E4%BA%A4%E4%BF%A1%E6%81%AF"><span class="nav-number">1.4.4.</span> <span class="nav-text">社交信息</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0"><span class="nav-number">2.</span> <span class="nav-text">参考文章</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E7%9A%84%E6%96%B9%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">设置阅读全文的方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E6%96%87%E5%AD%97%E9%AB%98%E4%BA%AE%E7%9A%84%E6%96%B9%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">设置文字高亮的方法</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

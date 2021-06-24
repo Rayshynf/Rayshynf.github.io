@@ -139,12 +139,12 @@
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">1</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">2</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">3</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">4</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -200,6 +200,116 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://rayshynf.github.io/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Rayshynf">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Rayshynf">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/" class="post-title-link" itemprop="url">Typora配合hexo博客的相关写法</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-06-24 09:11:29 / 修改时间：10:07:22" itemprop="dateCreated datePublished" datetime="2021-06-24T09:11:29+08:00">2021-06-24</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/" itemprop="url" rel="index"><span itemprop="name">博客配置</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/" class="post-meta-item leancloud_visitors" data-flag-title="Typora配合hexo博客的相关写法" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>128</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="设置阅读全文的方法"><a href="#设置阅读全文的方法" class="headerlink" title="设置阅读全文的方法"></a>设置阅读全文的方法</h2><p>使用下列代码进行手动截断，设置阅读全文前的摘要内容</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="设置文字高亮的方法"><a href="#设置文字高亮的方法" class="headerlink" title="设置文字高亮的方法"></a>设置文字高亮的方法</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;label style=&quot;color:blue&quot;&gt;需要高亮的文字&lt;/label&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><label style="color:blue"><em>未完待续</em></label></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://rayshynf.github.io/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -231,8 +341,17 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-06-24 02:00:55" itemprop="dateModified" datetime="2021-06-24T02:00:55+08:00">2021-06-24</time>
+                <time title="修改时间：2021-06-24 10:21:28" itemprop="dateModified" datetime="2021-06-24T10:21:28+08:00">2021-06-24</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/" itemprop="url" rel="index"><span itemprop="name">博客配置</span></a>
+                </span>
+            </span>
 
           
             <span id="/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/" class="post-meta-item leancloud_visitors" data-flag-title="Hexo next(v7.8.0)主题配置" title="阅读次数">
@@ -261,7 +380,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.9k</span>
+              <span>2.1k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -280,7 +399,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>写在前面：本博客配置基于hexo-5.4.0和next-7.8.0配置。其中，基于next-7.8.0的部分配置内容与next-5多有不同。hexo博客的搭建和next主题的获取步骤在这里我们就现行省略。你可以参照这两个视频<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1Yb411a7ty?t=595">手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo_哔哩哔哩_bilibili</a>、<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客_哔哩哔哩_bilibili</a>来完成hexo博客的搭建。此外，我的next主题文件夹命名为next-reloaded，以便和v5版本的next主题做出区分。</p>
+          <p>写在前面：本博客配置基于hexo-5.4.0和next-7.8.0配置。其中，基于next-7.8.0的部分配置内容与next-5多有不同。hexo博客的搭建和next主题的获取步骤在这里我们就现行省略。你可以参照这两个视频*<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1Yb411a7ty?t=595">手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo_哔哩哔哩_bilibili</a><em>、​​</em><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客_哔哩哔哩_bilibili</a>*来完成hexo博客的搭建。此外，我的next主题文件夹命名为next-reloaded，以便和v5版本的next主题做出区分。</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/#more" rel="contents">
@@ -625,14 +744,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
