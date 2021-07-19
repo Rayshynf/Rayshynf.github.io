@@ -6,7 +6,7 @@
   <link href="https://rayshynf.github.io/atom.xml" rel="self"/>
   
   <link href="https://rayshynf.github.io/"/>
-  <updated>2021-06-24T02:43:29.204Z</updated>
+  <updated>2021-06-24T11:02:12.215Z</updated>
   <id>https://rayshynf.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://rayshynf.github.io/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/"/>
     <id>https://rayshynf.github.io/2021/06/24/Typora%E9%85%8D%E5%90%88hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%99%E6%B3%95/</id>
     <published>2021-06-24T01:11:29.000Z</published>
-    <updated>2021-06-24T02:43:29.204Z</updated>
+    <updated>2021-06-24T11:02:12.215Z</updated>
     
     
       
@@ -51,10 +51,11 @@
     <link href="https://rayshynf.github.io/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
     <id>https://rayshynf.github.io/2021/06/23/Hexo-next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</id>
     <published>2021-06-23T15:54:30.000Z</published>
-    <updated>2021-06-24T02:43:01.882Z</updated>
+    <updated>2021-07-16T08:56:43.731Z</updated>
     
     
-    <summary type="html">&lt;p&gt;写在前面：本博客配置基于hexo-5.4.0和next-7.8.0配置。其中，基于next-7.8.0的部分配置内容与next-5多有不同。hexo博客的搭建和next主题的获取步骤在这里我们就现行省略。你可以参照这两个视频 &lt;em&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Yb411a7ty?t=595&quot;&gt;手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo_哔哩哔哩_bilibili &lt;/a&gt; 、 &lt;a href=&quot;https://www.bilibili.com/video/BV1cW411A7Jx?p=9&quot;&gt;手把手教你搭建属于自己的hexo+github博客_哔哩哔哩_bilibili&lt;/a&gt;&lt;/em&gt; 来完成hexo博客的搭建。此外，我的next主题文件夹命名为next-reloaded，以便和v5版本的next主题做出区分。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;写在前面：本博客配置基于hexo-5.4.0和next-7.8.0配置。其中，基于next-7.8.0的部分配置内容与next-5多有不同。hexo博客的搭建和next主题的获取步骤在这里我们就现行省略。你可以参照这两个视频 &lt;em&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Yb411a7ty?t=595&quot;&gt;手把手教你从0开始搭建自己的个人博客 |无坑版视频教程| hexo_哔哩哔哩_bilibili &lt;/a&gt; 、 &lt;a href=&quot;https://www.bilibili.com/video/BV1cW411A7Jx?p=9&quot;&gt;手把手教你搭建属于自己的hexo+github博客_哔哩哔哩_bilibili&lt;/a&gt;&lt;/em&gt; 来完成hexo博客的搭建。此外，我的next主题文件夹命名为next-reloaded，以便和v5版本的next主题做出区分。&lt;/p&gt;
+&lt;p&gt;&lt;label style=&quot;color:blue&quot;&gt;&lt;em&gt;未完待续&lt;/em&gt;&lt;/label&gt;&lt;/p&gt;</summary>
     
     
     
@@ -74,7 +75,7 @@
     <link href="https://rayshynf.github.io/2021/06/21/Manjaro%E9%85%8D%E7%BD%AE/"/>
     <id>https://rayshynf.github.io/2021/06/21/Manjaro%E9%85%8D%E7%BD%AE/</id>
     <published>2021-06-21T01:16:19.000Z</published>
-    <updated>2021-06-23T17:46:24.016Z</updated>
+    <updated>2021-07-19T07:01:45.293Z</updated>
     
     
       
@@ -90,7 +91,7 @@
     <category term="系统安装" scheme="https://rayshynf.github.io/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/"/>
     
     
-    <category term="Linux" scheme="https://rayshynf.github.io/tags/Linux/"/>
+    <category term="linux" scheme="https://rayshynf.github.io/tags/linux/"/>
     
   </entry>
   
@@ -99,7 +100,7 @@
     <link href="https://rayshynf.github.io/2021/06/20/hello-world/"/>
     <id>https://rayshynf.github.io/2021/06/20/hello-world/</id>
     <published>2021-06-20T14:15:53.149Z</published>
-    <updated>2021-06-21T14:06:52.450Z</updated>
+    <updated>2021-07-15T07:31:59.681Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
